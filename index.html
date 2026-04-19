@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>river</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="game-shell">
+    <div id="game-container">
+      <canvas
+        id="game-canvas"
+        width="960"
+        height="540"
+        aria-label="A side-scrolling boat game set on the River Thames"
+      >
+        Your browser does not support the HTML canvas element.
+      </canvas>
+
+      <div id="hud" aria-live="polite">
+        <div id="score">Score: 0</div>
+        <div id="instructions">Up/Down or W/S. Drag on mobile.</div>
+      </div>
+
+      <section id="start-screen" class="screen">
+        <h1>river</h1>
+        <p>Steer a tiny boat through the Thames, keep inside the river channel, and avoid piers, barges, and debris.</p>
+        <button id="start-btn" type="button">Start Game</button>
+      </section>
+
+      <section id="game-over-screen" class="screen hidden" aria-live="polite">
+        <h2>Game Over</h2>
+        <p id="final-score">Final Score: 0</p>
+        <button id="restart-btn" type="button">Play Again</button>
+      </section>
+    </div>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
