@@ -20,24 +20,6 @@ A simple 2D side-scrolling boat game inspired by navigating the River Thames in 
 - **Desktop**: Arrow keys or WASD to move the boat.
 - **Mobile**: Touch and drag on the canvas to move.
 
-## How to Deploy to GitHub Pages
-
-1. Create a new repository on GitHub (public or private).
-2. Clone the repository to your local machine or upload these files directly.
-3. Ensure the files are in the root of the repository:
-   - `index.html`
-   - `style.css`
-   - `game.js`
-   - `README.md`
-4. Commit and push the files to the `main` branch.
-5. Go to your repository on GitHub.
-6. Click on "Settings" (gear icon).
-7. Scroll down to "Pages" in the left sidebar.
-8. Under "Source", select "Deploy from a branch".
-9. Choose `main` branch and `/ (root)` folder.
-10. Click "Save".
-11. GitHub will provide a URL (e.g., `https://yourusername.github.io/repository-name/`) where the game is live. It may take a few minutes to deploy.
-
 ## Game Features
 
 - Endless side-scrolling gameplay
